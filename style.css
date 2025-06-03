@@ -3,7 +3,12 @@
 }
 
 .box-item{
-    background-color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #98dbc9;
     flex: 1;
+    text-align: center;
+}
+
+.title{
     text-align: center;
 }
