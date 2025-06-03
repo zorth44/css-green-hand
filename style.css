@@ -22,3 +22,33 @@
 .container-item1{
     grid-column: 1 / 3;
 }
+
+.container2{
+    display: grid;
+    grid-template-areas:
+     "header header header"
+     "sidebar main main"
+     "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+}
+
+.header{
+    grid-area: header;
+    background-color: rgb(173, 216, 150);
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: burlywood;
+}
+
+.main{
+    grid-area: main;
+    background-color: lightsalmon;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: coral;
+}
