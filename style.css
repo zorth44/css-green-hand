@@ -59,7 +59,7 @@
 
 .container3{
     display: grid;
-    width: 80%;
+    width: 100%;
     height: 20em;
 
     grid-template-rows: repeat(10,1fr);
