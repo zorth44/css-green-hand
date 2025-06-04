@@ -30,8 +30,8 @@
      "sidebar main main"
      "footer footer footer";
     grid-template-columns: 1fr 2fr 1fr;
-    text-align: center;
     height: 50vh;
+    font-family: 'Inter', Courier, monospace;
 }
 
 .header{
@@ -47,6 +47,9 @@
 .main{
     grid-area: main;
     background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer{
